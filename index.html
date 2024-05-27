@@ -1,0 +1,337 @@
+<!--Name: Ramandeep, student ID:301095150, File index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>BURGER KING</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top" style="background-color: red;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+
+      <a class="navbar-brand hidden-xs" href="#myPage"><img src="iconn.jpg"></a>
+
+      <a class="navbar-brand" href="#myPage" style="color: yellow;">BURGER KING</a>
+
+    </div>
+    <div style="display: flex;">
+        <a href="#menu" style="margin: 10px;color: white;">MENU</a></br>
+        <a href="#contact" style="margin: 10px;color: white;">CONTACT US</a></br>
+        <a href="#about" style="margin: 10px;color: white;">ABOUT US</a></br>
+    </div>
+  </div>
+</nav>
+
+<header id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="burger_building.jpg" alt="Icecream 1" width="2000" height="250">
+        <div class="carousel-caption">
+          <h3> OUR OFFICE IN SCARBOROUGH </h3>
+          
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="burger_building2.png" alt="Icecream 2" width="2000" height="250">
+        <div class="carousel-caption">
+          <h3> OUR OFFICE IN BRAMPTON </h3>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="burger_building3.jpg" alt="Icecream 3" width="2000" height="250">
+        <div class="carousel-caption">
+          <h3>OUR OFFICE IN ETOBICOKE</h3>
+        </div>      
+      </div>
+      
+      <div class="item">
+        <img src="burger_building4.jpg" alt="Icecream 4" width="2000" height="250">
+        <div class="carousel-caption">
+          <h3>OUR OFFICE IN DOWNTOWN of TORONTO</h3>
+         
+        </div>    
+      </div>
+    </div>
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">BACK</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</header>
+
+<section id="menu" class="bg-1">
+  <div class="container">
+    <h3 class="text-center slideanimate">BURGER KING</h3>  
+    <div class="row display-flex text-center">
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="beef_burger.jpg" alt="Product 1">
+          <p><strong>$20</strong></p>
+          <p data-toggle="tooltip" title="Milk,Flavour">BEEF BURGER </p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="bison_burger.jpg" alt="Product 2">
+          <p><strong>$25</strong></p>
+          <p data-toggle="tooltip" title="Milk,Flavour">BISON BURGER</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="turkey_burger.jpg" alt="Product 3">
+          <p><strong>$22</strong></p>
+          <p data-toggle="tooltip" title="Milk,Flavour">TURKEY BURGER</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-6 col-md-4 col-lg-3 hvr-grow slideanim">
+        <div class="thumbnail">
+          <img src="veggie_burger.jpg" alt="Product 4">
+          <p><strong>$12</strong></p>
+          <p data-toggle="tooltip" title="Milk,Flavour">VEGGIEBURGER</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Order</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+  <section class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+  
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span></span>Order</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+
+
+              <div class="form-group"><label for="qty">NAME</label>
+                <input type="text" class="form-control"  placeholder="Enter your Name">
+              </div>
+  
+              <div class="form-group"><label for="qty">ADDRESS</label>
+                <input type="text" class="form-control"  placeholder=" Enter your Address">
+              </div>
+  
+              <div class="form-group"><label for="qty">E-Mail</label>
+                <input type="email" class="form-control"  placeholder="Enter your Email Address">
+              </div>
+              
+  
+              <label for="phone">PHONE NUMBER:</label>
+  
+              <input type="tel" id="phone" name="phone"
+                      maxlength="12"
+                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                     required>
+
+              <div class="form-group">
+                  <label for="sel1">Payment Method</label>
+                    <select class="form-control" id="sel1">
+                      <option>Select your Card Type</option>
+                      <option>VISA</option>
+                      <option>Master</option>
+                      <option>Debit</option>
+                    
+                    </select>
+                </div>
+  
+                <label for="cardno">CARD NUMBER:</label>
+  
+              <input type="tel" id="cardno" name="cardno"
+                      maxlength="16" required>
+        
+                  <div class="form-group"><label>Select number of burger:</label>
+                    <div class="radio">
+                      <label class="radio-inline"><input type="radio" name="optradio">One Burger</label>
+                      <label class="radio-inline"><input type="radio" name="optradio">Two Burger</label>
+                      <label class="radio-inline"><input type="radio" name="optradio">Three Burger</label>
+                      <label class="radio-inline"><input type="radio" name="optradio">four Burger</label>
+                      <label class="radio-inline"><input type="radio" name="optradio">Five Burger</label>
+                      <label class="radio-inline"><input type="radio" name="optradio">Six Burger</label>
+                      <label class="radio-inline"><input type="radio" name="optradio">Seven Burger</label>
+                      <label class="radio-inline"><input type="radio" name="optradio">Eight Burger</label>
+                      <P>For more then Eight burger you have to wait for long time, Please come in-person to take this delivery </P>
+                    </div>
+            </div>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Confirm Order
+              <span class="glyphicon glyphicon-ok"></span>
+            </button>
+              
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Confirmation Page</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Thanks for Order burger.</p>
+            <p> Confirmation Number : 911 </p>
+            <p> Delivery Status : Out for Delivery </p>
+            <p> Transaction Amount : Paid </p>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h1>Contact US</h1>
+  <h3>YOUR FEEDBACK IS IMPORTANT FOR US</h3>
+
+  <div class="row">
+   
+    <article class="col-md-8">
+      <div class="container text-center">
+        <div class="col-sm-6 form-group">
+          <input class="form-control slideanim" id="name" name="name" placeholder="ENTER YOUR NAME" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control slideanim" id="email" name="email" placeholder="Email" type="ENTER YOUR EMAIL ADDRESS" required>
+        </div>
+          <textarea class="form-control slideanim" id="subject" name="subject" placeholder="SUBJECT OF WRITTING" rows="1"></textarea>
+          <br>
+          <textarea class="form-control slideanim" id="comments" name="comments" placeholder="WRITE YOUR COMMENTS HERE" rows="5"></textarea>
+          <br>
+        <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right slideanim" type="submit">Send</button>
+        </div>
+      </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<section id="about" class="container text-center">
+  <article>
+    <h3 class="slideanim">ABOUT US</h3>
+    <p class="slideanim">Burger King (BK) is an American multinational chain of hamburger fast food restaurants. Headquartered in the unincorporated area of Miami-Dade County, Florida, the company was founded in 1953 as Insta-Burger King, a Jacksonville, Florida–based restaurant chain. After Insta-Burger King ran into financial difficulties in 1954, its two Miami-based franchisees David Edgerton and James McLamore purchased the company and renamed it "Burger King". Over the next half-century, the company would change hands four times, with its third set of owners, a partnership of TPG Capital, Bain Capital, and Goldman Sachs Capital Partners, taking it public in 2002. In late 2010, 3G Capital of Brazil acquired a majority stake in the company, in a deal valued at US$3.26 billion. The new owners promptly initiated a restructuring of the company to reverse its fortunes. 3G, along with partner Berkshire Hathaway, eventually merged the company with the Canadian-based doughnut chain Tim Hortons, under the auspices of a new Canadian-based parent company named Restaurant Brands International.</p>
+    <p class="slideanim">The 1970s were the "Golden Age" of the company's advertising, but beginning in the early-1980s, Burger King advertising began losing focus. A series of less successful advertising campaigns created by a procession of advertising agencies continued for the next two decades. In 2003, Burger King hired the Miami-based advertising agency Crispin Porter + Bogusky (CP+B), which completely reorganized its advertising with a series of new campaigns centered on a redesigned Burger King character nicknamed "The King", accompanied by a new online presence. While highly successful, some of CP+B's commercials were derided for perceived sexism or cultural insensitivity. Burger King's new owner, 3G Capital, later terminated the relationship with CP+B in 2011 and moved its advertising to McGarryBowen, to begin a new product-oriented campaign with expanded demographic targeting. Burger King's menu has expanded from a basic offering of burgers, French fries, sodas, and milkshakes to a larger and more diverse set of products. In 1957, the "Whopper" became the first major addition to the menu, and it has become Burger King's signature product since. Conversely, BK has introduced many products which failed to catch hold in the marketplace. Some of these failures in the United States have seen success in foreign markets, where BK has also tailored its menu for regional tastes. From 2002 to 2010, Burger King aggressively targeted the 18–34 male demographic with larger products that often carried correspondingly large amounts of unhealthy fats and trans-fats. This tactic would eventually damage the company's financial underpinnings, and cast a negative pall on its earnings. Beginning in 2011, the company began to move away from its previous male-oriented menu and introduce new menu items, product reformulations and packaging, as part of its current owner 3G Capital's restructuring plans of the company.    
+      </p>
+  </article>
+  
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <section class="row">
+                <article class="col-sm-4 ">
+                    <h5 class="uppercase general-sub slideanim">ADDRESS</h5>
+                    <p class="inline-block slideanim">567 Peace Drive, SCARBOROUGH<br>
+                        Phone: +1 647 999 8888<br>
+                        Email: burger@king.com
+                    </p>
+                </article>
+                <article class="col-sm-4 ">
+                  <h5 class="uppercase general-sub slideanim">ADDRESS 2</h5>
+                  <p class="inline-block slideanim">234 Cellemone Drive, BRAMPTON<br>
+                      Phone: +1 647 995 7778<br>
+                      Email: burger@king.com
+                  </p>
+              </article>
+              <article class="col-sm-4 ">
+                <h5 class="uppercase general-sub slideanim">ADDRESS 3</h5>
+                <p class="inline-block slideanim">123 MILLION Drive, ETIBICOKE<br>
+                    Phone: +1 647 999 6666<br>
+                    Email: burger@king.com
+                </p>
+            </article>
+            <article class="col-sm-4 ">
+              <h5 class="container text-center">ADDRESS 4</h5>
+              <p class="container text-center">568 DOWN TOWN, TORONTO<br>
+                  Phone: +1 647 999 3333<br>
+                  Email: burger@king.com
+              </p>
+            </section>
+</footer>
+
+<script>
+$(document).ready(function(){
+
+  $('[data-toggle="tooltip"]').tooltip(); 
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+  
+        window.location.hash = hash;
+      });
+    } 
+  });
+  
+   $(".slideanimate").each(function(){
+        $(this).stop().delay(1000).addClass("slide");
+    });
+  
+    $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+    
+      var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
+    });
+    });
+    
+})
+
+</script>
+
+</body>
+</html>
